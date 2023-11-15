@@ -5,5 +5,33 @@
     text-align: center;
 }
 .welcome {
-    font-style: serif;
+    font-family: Lucida;
+    font-size: 65px;
+}
+.paragraph {
+    font-size: 20px; 
+}
+body{
+    background-image: linear-gradient(45deg,rgb(215, 250, 247),rgb(0, 119, 255));
+    background-size: 400% 400%;
+    width: 100%;
+    height: 100%;
+    animation: animate 5s infinite alternate;
+}
+.products{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+@keyframes animate {
+   0% {
+    background-position: left;
+   }
+   100% {
+    background-position: right;
+   }
+}
+.ggg{
+    font-size: 20px;
 }
