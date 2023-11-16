@@ -9,10 +9,11 @@
     font-size: 65px;
 }
 .paragraph {
-    font-size: 20px; 
+    font-size: 20px;
+    font-family: Lucida;
 }
 body{
-    background-image: linear-gradient(45deg,rgb(215, 250, 247),rgb(56, 145, 248));
+    background-image: linear-gradient(45deg,rgb(215, 250, 247),rgb(0, 255, 242),rgb(56, 145, 248));
     background-size: 400% 400%;
     width: 100%;
     height: 100%;
@@ -28,10 +29,42 @@ body{
    0% {
     background-position: left;
    }
+   50% {
+    background-position: center;
+   }
    100% {
     background-position: right;
    }
 }
 .ggg{
     font-size: 20px;
+}
+.producttext{
+    text-align: center;
+    font-family: Lucida;
+}
+.card{
+    margin-right: 8%;
+    margin-top: 2%;
+}
+.link:link{
+    text-decoration: none;
+}
+.link:hover {
+    color:goldenrod;
+}
+a{
+    color:black
+}
+.copy{
+    font-size: smaller;
+    text-align:justify;
+}
+.nav-item:hover {  
+  
+font-size: 40px; 
+font-family: Arial, Helvetica, sans-serif; 
+background: linear-gradient(to right, rgb(0, 255, 242),rgb(56, 145, 248)); 
+-webkit-text-fill-color: transparent; 
+-webkit-background-clip: text;
 }
