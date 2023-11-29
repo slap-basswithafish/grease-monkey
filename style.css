@@ -127,5 +127,33 @@ animation: animated_text 5s infinite alternate;
     background-color: #FFF;
     }
 
+    .contact {
+        font-family: Lucida;
+    }
     
-    
+    footer {
+        font-family: Lucida;
+    }
+    $count: 500;
+
+@function randomNum($max, $min: 0, $u: 1) {
+	@return ($min + random($max)) * $u;
+}
+
+.bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    line-height: 100vh;
+    text-align: center;
+    font-size: 15vw;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px rgba(118, 218, 255, .8);
+    z-index: -1;
+}
+.ccard-body {
+    background-color: rgb(56, 145, 248);
+}
+
