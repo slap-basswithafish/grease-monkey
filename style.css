@@ -61,27 +61,26 @@ a{
     text-align:justify;
 }
 .nav-item {
-font-size: 40px; 
-font-family: Lucida ; 
-background-image: linear-gradient(45deg,red,blue); 
-background-size: 400% 400%;
--webkit-text-fill-color: transparent; 
--webkit-background-clip: text;
-animation: animated_text 5s infinite alternate;
--moz-animation: animated_text 5s infinite alternate;
--webkit-animation: animated_text 5s infinite alternate;
+    font-size: 40px; 
+    font-family: Lucida ; 
+    background-image: linear-gradient(45deg,red,blue); 
+    background-size: 400% 400%;
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text;
+    animation: animated_text 5s infinite alternate;
+    -moz-animation: animated_text 5s infinite alternate;
+    -webkit-animation: animated_text 5s infinite alternate;
 }
 .nav-item:hover {  
-  
-font-size: 47px; 
-font-family: Lucida; 
-background-image: linear-gradient(45deg,red,skyblue, blue); 
-background-size: 400% 400%;
--webkit-text-fill-color: transparent; 
--webkit-background-clip: text;
-animation: animated_text 5s infinite alternate;
--moz-animation: animated_text 5s infinite alternate;
--webkit-animation: animated_text 5s infinite alternate;
+    font-size: 47px; 
+    font-family: Lucida; 
+    background-image: linear-gradient(45deg,red,skyblue, blue); 
+    background-size: 400% 400%;
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text;
+    animation: animated_text 5s infinite alternate;
+    -moz-animation: animated_text 5s infinite alternate;
+    -webkit-animation: animated_text 5s infinite alternate;
 }
 
 @keyframes animated_text {
@@ -99,17 +98,17 @@ animation: animated_text 5s infinite alternate;
     margin-bottom: 20px;
     display: flex;
     background-image: linear-gradient(45deg,rgb(215, 250, 247),rgb(199, 150, 255),rgb(98, 178, 253),rgb(56, 145, 248),rgb(128, 26, 245)); 
-background-size: 400% 400%;
--webkit-text-fill-color: transparent; 
--webkit-background-clip: text;
-animation: animated_text 5s infinite alternate;
--moz-animation: animated_text 5s infinite alternate;
--webkit-animation: animated_text 5s infinite alternate;
-    }
-    .navbar-default {
+    background-size: 400% 400%;
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text;
+    animation: animated_text 5s infinite alternate;
+    -moz-animation: animated_text 5s infinite alternate;
+    -webkit-animation: animated_text 5s infinite alternate;
+}
+.navbar-default {
     background-color: #fff;
     border-color: #fff;
-    }
+}
     .brand-name {
     font-family: Lucida;
     font-size: 47px;
