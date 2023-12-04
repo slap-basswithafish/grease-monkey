@@ -75,6 +75,18 @@ a{
     -moz-animation: animated_text 5s infinite alternate;
     -webkit-animation: animated_text 5s infinite alternate;
 }
+.dropdown{
+    font-size: 40px; 
+    font-family: Lucida ; 
+    background-image: linear-gradient(45deg,red,blue); 
+    background-size: 400% 400%;
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text;
+    animation: animated_text 5s infinite alternate;
+    -moz-animation: animated_text 5s infinite alternate;
+    -webkit-animation: animated_text 5s infinite alternate;
+}
+
 .nav-item:hover {  
     font-size: 47px; 
     font-family: Lucida; 
@@ -156,5 +168,86 @@ a{
     -webkit-text-stroke: 1px rgba(118, 218, 255, .8);
     z-index: -1;
 }
-
+ 
+  * { 
+    margin : 0;
+    padding: 0;
+    box-sizing : border-box;
+    font-familly : "Poppins", sans-serif;
+  }
+  .animalcontainer {
+    position : relative;
+    width : 1100px;
+    display : flex;
+    align-items : center;
+    justify-content : center;
+    flex-warp : warp;
+    padding : 30px;  
+  }
+  
+  .animalcontainer .animalcard {
+    position: relative;
+    max-width : 300px;
+    height : 215px;  
+    background-color : #fff;
+    margin : 30px 10px;
+    padding : 20px 15px;
+    
+    display : flex;
+    flex-direction : column;
+    box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+    transition : 0.3s ease-in-out;
+    border-radius : 15px;
+  }
+  .animalcontainer .animalcard:hover {
+    height : 320px;    
+  }
+  
+  
+  .animalcontainer .animalcard .image {
+    position : relative;
+    width : 260px;
+    height : 260px;
+    
+    top : -40%;
+    left: 8px;
+    box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+    z-index : 1;
+  }
+  
+  .animalcontainer .animalcard .image img {
+    max-width : 100%;
+    border-radius : 15px;
+  }
+  
+  .animalcontainer .animalcard .content {
+    position : relative;
+    top : -140px;
+    padding : 10px 15px;
+    color : #111;
+    text-align : center;
+    
+    visibility : hidden;
+    opacity : 0;
+    transition : 0.3s ease-in-out;
+      
+  }
+  
+  .animalcontainer .animalcard:hover .content {
+     margin-top : 30px;
+     visibility : visible;
+     opacity : 1;
+     transition-delay: 0.2s;
+    
+  }
+  .carousel{
+    margin: auto;
+    height: 380px;
+    width: 500px;
+  }
+  .carousel-indicators{
+    margin: auto;
+    height: 10px;
+    width: 300px;
+  }
 
