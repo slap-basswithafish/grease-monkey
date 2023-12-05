@@ -27,8 +27,30 @@
     -webkit-animation: animated_text 5s infinite alternate;
 }
 
+.navbar {
+    margin-bottom: 20px;
+    display: flex;
+    background-image: linear-gradient(45deg, rgb(215, 250, 247), rgb(199, 150, 255), rgb(98, 178, 253), rgb(56, 145, 248), rgb(128, 26, 245));
+    background-size: 400% 400%;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: animated_text 5s infinite alternate;
+    -moz-animation: animated_text 5s infinite alternate;
+    -webkit-animation: animated_text 5s infinite alternate;
+}
 
+.nav-container {
+    padding-top: 8px;
+}
 
+.navbar-custom {
+    font-size: 20px;
+    background-color: #FFF;
+}
+
+.navimg {
+    width: 150px;
+}
 
 
 
@@ -138,17 +160,6 @@ a {
     }
 }
 
-.navbar {
-    margin-bottom: 20px;
-    display: flex;
-    background-image: linear-gradient(45deg, rgb(215, 250, 247), rgb(199, 150, 255), rgb(98, 178, 253), rgb(56, 145, 248), rgb(128, 26, 245));
-    background-size: 400% 400%;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    animation: animated_text 5s infinite alternate;
-    -moz-animation: animated_text 5s infinite alternate;
-    -webkit-animation: animated_text 5s infinite alternate;
-}
 
 .navbar-default {
     background-color: #fff;
@@ -163,14 +174,7 @@ a {
     text-decoration: none;
 }
 
-.nav-container {
-    padding-top: 8px;
-}
 
-.navbar-custom {
-    font-size: 20px;
-    background-color: #FFF;
-}
 
 .contact {
     font-family: Lucida;
@@ -209,7 +213,6 @@ $count: 500;
 
 .animalcontainer {
     position: relative;
-    width: 1100px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -285,8 +288,15 @@ $count: 500;
     height: 10px;
     width: 300px;
 }
-/* Medium Sized Screens*/
-/*@media screen and (max-width: 600px) {
 
-}*/
+.homeimg {
+    width: 600px;
+}
+
+/* Medium Sized Screens*/
+@media screen and (max-width: 600px) {
+    .homeimg {
+        width: 300px;
+    }
     
+}
