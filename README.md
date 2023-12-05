@@ -1,4 +1,5 @@
 # grease monkey
- asdasdawdsawdsawdwasdwadsawdsawdsasdwasds
- we the best music
+Need to fix screen sizes.
+Need to categorize styles.
+Need to add comments.
  
