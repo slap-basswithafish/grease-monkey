@@ -293,7 +293,7 @@ $count: 500;
     width: 600px;
 }
 
-/* Medium Sized Screens*/
+/* Phone Sized Screens*/
 @media screen and (max-width: 600px) {
     .homeimg {
         width: 300px;
