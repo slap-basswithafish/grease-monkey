@@ -1,7 +1,5 @@
 /*nav*/
-.nav-link {
-    font-size: 62px;
-}
+
 
 .nav-item:hover {
     font-size: 47px;
@@ -14,7 +12,6 @@
     -moz-animation: animated_text 5s infinite alternate;
     -webkit-animation: animated_text 5s infinite alternate;
 }
-
 .nav-item {
     font-size: 40px;
     font-family: Lucida;
@@ -26,6 +23,8 @@
     -moz-animation: animated_text 5s infinite alternate;
     -webkit-animation: animated_text 5s infinite alternate;
 }
+
+
 
 .navbar {
     margin-bottom: 20px;
@@ -51,6 +50,7 @@
 .navimg {
     width: 150px;
 }
+
 
 
 
@@ -133,17 +133,6 @@ a {
     text-align: justify;
 }
 
-.dropdown {
-    font-size: 40px;
-    font-family: Lucida;
-    background-image: linear-gradient(45deg, red, blue);
-    background-size: 400% 400%;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    animation: animated_text 5s infinite alternate;
-    -moz-animation: animated_text 5s infinite alternate;
-    -webkit-animation: animated_text 5s infinite alternate;
-}
 
 
 @keyframes animated_text {
@@ -184,11 +173,8 @@ footer {
     font-family: Lucida;
 }
 
-$count: 500;
 
-@function randomNum($max, $min: 0, $u: 1) {
-    @return ($min + random($max)) * $u;
-}
+
 
 .bg {
     position: absolute;
@@ -214,12 +200,20 @@ $count: 500;
 .animalcontainer {
     position: relative;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: left;
+    justify-content: left;
     flex-warp: warp;
     padding: 30px;
+    float: left;
 }
-
+#animal2 {
+    align-items: center;
+    justify-content: center;
+}
+#animal3 {
+    align-items: right;
+    justify-content: right;
+}
 .animalcontainer .animalcard {
     position: relative;
     max-width: 300px;
