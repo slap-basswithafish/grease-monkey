@@ -93,6 +93,11 @@ body {
     animation: animate 5s infinite alternate;
 }
 
+.card {
+    margin-right: 8%;
+    margin-top: 2%;
+}
+
 @keyframes animate {
     0% {
         background-position: left;
@@ -107,20 +112,18 @@ body {
     }
 }
 
+/*paragraphs on history page*/
 .ggg {
     font-size: 20px;
 }
 
+/*main texts on product page*/
 .producttext {
     text-align: center;
     font-family: Lucida;
 }
 
-.card {
-    margin-right: 8%;
-    margin-top: 2%;
-}
-
+/*styles for links in the footer*/
 .link:link {
     text-decoration: none;
 }
@@ -129,6 +132,7 @@ body {
     color: goldenrod;
 }
 
+/*primary color of all links*/
 a {
     color: black
 }
@@ -165,11 +169,12 @@ a {
 }
 
 
-
+/*section tag on contact page*/
 .contact {
     font-family: Lucida;
 }
 
+/*footer on all pages*/
 footer {
     font-family: Lucida;
 }
@@ -281,8 +286,8 @@ footer {
 
 .carousel-indicators {
     margin: auto;
-    height: 10px;
-    width: 300px;
+    height: 1px;
+    width: 400px;
 }
 
 /*image for company headquarters on index/home page*/ 
