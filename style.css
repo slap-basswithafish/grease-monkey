@@ -60,6 +60,14 @@
     text-align: center;
 }
 
+h1{
+    font-family: Lucida;
+}
+
+h2 {
+    font-family: Lucida;
+}
+
 /*paragraph on index page*/
 .welcome {
     font-family: Lucida;
