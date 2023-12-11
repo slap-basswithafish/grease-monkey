@@ -97,7 +97,10 @@ body {
 
 /*cards for reviews on review page*/
 .card {
-    background-image: linear-gradient(45deg, rgb(199, 150, 255),rgb(56, 145, 248), rgb(98, 178, 253), rgb(56, 145, 248), rgb(194, 143, 252));
+    background-image: <div class="inputBox">
+    <span>email :</span>
+    <input type="email" placeholder="yourname@gmail.com">
+</div>
     animation: animate 5s infinite alternate;
 }
 
@@ -311,4 +314,70 @@ footer {
     body {
     background-image: linear-gradient(45deg, (215, 250, 247), rgb(199, 150, 255), rgb(98, 178, 253), rgb(56, 145, 248), rgb(128, 26, 245));
     }
+}
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Montserrat:wght@600&display=swap');
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  background-color: #686868;
+  align-content: center;
+  text-align: center;
+}
+*{
+    font-family: Lucida;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-transform: ;
+    transition: all .2s linear;
+}
+.paycontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    min-height: 100vh;
+    background: linear-gradient(45deg, rgb(199, 150, 255),rgb(56, 145, 248), rgb(98, 178, 253), rgb(56, 145, 248), rgb(194, 143, 252));;
+    padding-bottom: 70px;
+}
+.paycontainer form{
+    padding: 20px;
+    width: 700px;
+    background: #FFF;
+    box-shadow: 0 5px 10px rgba(0, 0, 0,.1);
+}
+.paycontainer form .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.paycontainer form .row .col{
+    flex: 1 1 250px;
+}
+.paycontainer form .row .col .title{
+    font-size: 20px;
+    color: #333;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+.paycontainer form .row .col .inputBox{
+    margin: 15px 0;
+}
+.paycontainer form .row .col .inputBox span{
+    margin-bottom: 10px;
+}
+.paycontainer form .row .col .inputBox input{
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    font-size: 15px;
+    text-transform: none;
 }
