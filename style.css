@@ -287,6 +287,9 @@ footer {
     transition-delay: 0.2s;
 
 }
+.testing-text{
+    margin-bottom: 20px;
+}
 
 /*carousel on product page*/
 .carousel {
@@ -380,4 +383,12 @@ body {
     padding: 10px 15px;
     font-size: 15px;
     text-transform: none;
+}
+.btn{
+    margin-left: 800px;
+    margin-top: 30px;
+}
+h4{
+    margin-top: 30px;
+    margin-right: 20px;
 }
