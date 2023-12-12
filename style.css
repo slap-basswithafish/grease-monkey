@@ -287,6 +287,9 @@ footer {
     transition-delay: 0.2s;
 
 }
+.testing-text{
+    margin-bottom: 20px;
+}
 
 /*carousel on product page*/
 .carousel {
