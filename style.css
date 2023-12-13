@@ -211,7 +211,7 @@ footer {
     font-familly: "Poppins", sans-serif;
 }
 
-/*images and cards for animal-testing page*/
+/*images and cards for animal-testing page. Credit to Tuan on codepen for the card here is the link https://codepen.io/keubibo/pen/yLXYVOK*/
 .animalcontainer {
     position: relative;
     display: flex;
